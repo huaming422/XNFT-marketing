@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@src/*": ["./*"],
+      "@hooks/*": ["./hooks/*"],
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./components/*"],
+      "@utils/*": ["./utils/*"],
+      "@contexts/*": ["./contexts/*"],
+      "@lib/*": ["./lib/*"]
+    },
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true
+  }
+}
